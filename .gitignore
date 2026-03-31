@@ -1,0 +1,31 @@
+# checkpoints and model weights
+*.pt
+
+# large data files
+*.json.gz
+matbench_*.json
+
+# python cache
+__pycache__/
+*.pyc
+
+# temp scripts
+n-res/page_*.txt
+n-res/read_pdf.py
+n-res/build_report.py
+n-res/verify.py
+
+# old notebooks
+cammp-n.ipynb
+__notebook_source__*.ipynb
+n-res/__notebook_source__*.ipynb
+
+# prediction arrays
+*.npz
+
+# word docs and pdfs (distributed separately)
+*.docx
+*.pdf
+
+# kaggle source code files (notebook is the source)
+kaggle_full_part*.py
